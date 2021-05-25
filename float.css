@@ -1,0 +1,90 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #393e46;
+}
+
+.float {
+    float: left;
+    box-sizing: border-box;
+    height: 1500px;
+
+
+}
+
+.name {
+    background-color: #a7bbc7;
+    color: #faf3f3;
+}
+
+.links {
+    background-color: #da7f8f;
+    color: #faf3f3;
+    width: 10%;
+    padding: 5px;
+}
+
+.links a {
+    display: block;
+    padding: 5px 0;
+    color: #faf3f3;
+}
+
+.content {
+    background-color: #faf3f3;
+    width: 70%;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.videos {
+    background-color: #da7f8f;
+    width: 20%;
+}
+
+.videos iframe {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 90%;
+}
+
+.copy {
+    background-color: #a7bbc7;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 0 10px 0;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0 5px 0;
+}
+
+p {
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .float {
+        clear: both;
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+}
